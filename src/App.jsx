@@ -373,7 +373,7 @@ export default function App() {
 
         <section className="pane pane-right">
           <h2>Call + Result</h2>
-          <p className="muted">Payload shown here maps to `Actions.token.transferSync` input.</p>
+          <p className="muted">Payload shown here maps to `Actions.token.transfer` input.</p>
           <pre className="json-panel">
             {JSON.stringify(payload ?? { status: 'awaiting_input' }, null, 2)}
           </pre>

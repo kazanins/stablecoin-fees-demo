@@ -245,6 +245,14 @@ h2 {
   position: relative;
 }
 
+.auth-controls .btn {
+  width: auto;
+  margin-bottom: 0;
+  padding: 0 16px;
+  min-width: 104px;
+  white-space: nowrap;
+}
+
 .session-pill {
   height: 38px;
   padding: 0 10px;
