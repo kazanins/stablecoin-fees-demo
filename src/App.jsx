@@ -271,10 +271,10 @@ export default function App() {
         {!signedIn ? (
           <div className="auth-controls">
             <button className="btn" onClick={signUp} disabled={busy}>
-              Sign up with Passkey
+              Sign up
             </button>
             <button className="btn btn-ghost" onClick={signIn} disabled={busy}>
-              Login with Passkey
+              Login
             </button>
           </div>
         ) : (
